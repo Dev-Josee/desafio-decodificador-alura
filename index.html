@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Codificador e decodificador de texto. Este site foi um challenge do programa ONE 
+        (Oracle Next Education) desenvolvido para aprimorar os conhecimentos em lógica de programação, HTML, CSS e JavaScript.">
+    <title>Challenge-Decoficador de texto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"> <img class="go" src="img/LOGO-ALURA.svg" alt="Logo da Alura"></a>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="box-left">
+            <input type="text" class="textoCripto" id="textoCripto" placeholder="Digite seu texto...">
+
+            <div class="btn-1-2">
+                <button class="cripto" id="btn-criptado">Criptografrar</button>
+
+                <button class="descripto" id="btn-descriptado">Descriptografrar</button>
+            </div>
+            <span class="atencion">Apenas letras minúsculas e sem acento serão permitidos!</span>
+        </div>
+
+        <div class="box-rigth">
+            <div class="img-results">
+                <img id="img-resul" src="img/ICON-NORESULTS.svg" alt="">
+            </div>
+            <textarea name="resultado" id="textoDescripto"
+                placeholder="Digite algo para criptografar ou descriptografar!"></textarea>
+            <button class="copiar" id="copiar" type="button">Copiar</button>
+        </div>
+
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

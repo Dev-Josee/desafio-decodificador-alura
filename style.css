@@ -1,0 +1,154 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-primary)
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 120px;
+    height: 300p;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 11%;
+
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    padding: 30px 50px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.box-left {
+    width: 60%;
+    height: 500px;
+    padding: 15px 15px;
+    position: relative;
+
+}
+
+input {
+    width: 100%;
+    height: 100px;
+    font-size: 1.5rem;
+}
+
+.textoCripto {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 28px;
+    border: none;
+    border: 1px solid var(--dark-2-200);
+}
+
+.btn-1-2 {
+    width: 300px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.cripto,
+.descripto {
+    padding: 25px 30px;
+    border-radius: 28px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid var(--dark-2-200);
+    cursor: pointer;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.4s ease;
+
+
+}
+
+.cripto:hover {
+    background-color: var(--dark-3-300);
+    color: var(--bg-primary);
+    border-radius: 0 28px 28px 28px;
+
+}
+
+.descripto:hover {
+    background-color: var(--dark-3-300);
+    color: var(--bg-primary);
+    border-radius: 0 28px 28px 28px;
+}
+
+.atencion {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 25px;
+    color: #6e6e6e;
+
+}
+
+.box-rigth {
+    border: 1px solid #0744a0;
+    width: 450px;
+    height: 700px;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#img-resul {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+#textoDescripto {
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    outline: none;
+    text-align: center;
+    
+}
+
+.copiar {
+    padding: 20px 60px;
+    margin: 0 auto;
+    border-radius: 28px;
+    border: none;
+    border: 1px solid var(--dark-2-200);
+    transition: all 0.5s ease;
+
+}
+
+.copiar:hover {
+    background-color: var(--dark-3-300);
+    color: var(--bg-primary);
+    border-radius: 0 28px 28px 28px;
+}
